@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">
+            <div class="image">
+                <p>Thiago's Library</p>
+                <div class="add-book-container">
+                    <p>Add an new book to the library:</p>
+                    <button class="new-book-btn">New book</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="cards-container">
+            
+        </div>
+    </div>
+    
+    <dialog >
+        <form id="new-book-form">
+            <label for="form-title">*Title:</label>
+            <input type="text" name="form-title" id="form-title" required>
+
+            <label for="form-author">*Author:</label>
+            <input type="text" name="form-author" id="form-author" required>
+
+            <label for="form-numPages">*number of pages:</label>
+            <input type="text"  name="form-numPages" id="form-numPages" required>
+
+            <label for="form-read">*Status:</label>
+            <select name="form-read" id="form-read" required>
+                <option value="" disabled selected >--Choose an option please--</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="form-comment">Comment::</label>
+            <textarea type="text" name="form-comment" id="form-comment" rows="5" cols="30" placeholder="Leave a comment ..."></textarea>
+
+            <button  type="submit" class="form-submit">Add book</button>
+            <button type="button" class="form-cancel">Cancel</button>
+        </form>
+
+    </dialog>
+    <script src="script.js"></script>
+</body>
+</html>
