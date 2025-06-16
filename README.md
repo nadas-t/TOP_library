@@ -22,6 +22,12 @@ Habilidades e Conceitos Abordados
     Separação de Lógica: Manter a lógica de dados (como os livros são armazenados e manipulados) separada da lógica de exibição (como eles aparecem na página), promovendo um código mais limpo e fácil de manter.
     IDs Únicos: Garantir que cada livro tenha um identificador único para facilitar a manipulação.
 
+Foto do projeto:
+
+![alt text](assets/library.png)
+
+![alt text](assets/dialog.png)
+
 Como Usar
 
     Clone este repositório .
